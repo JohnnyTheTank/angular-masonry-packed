@@ -48,6 +48,7 @@ module.exports = function (grunt) {
                         'bower_components/outlayer/outlayer.js',
                         'bower_components/masonry/masonry.js',
                         'bower_components/imagesloaded/imagesloaded.js',
+                        'bower_components/angular-images-loaded-jtt/dist/angular-images-loaded-directive.js',
                         'src/*.js'
                     ]
                 }
