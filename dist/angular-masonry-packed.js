@@ -1,6 +1,6 @@
 /**
     @name: angular-masonry-packed 
-    @version: 0.14.4 (17-01-2016) 
+    @version: 0.14.5 (17-01-2016) 
     @url: https://github.com/JohnnyTheTank/angular-masonry-packed#readme 
     @license: MIT
 */
@@ -3726,7 +3726,7 @@ function makeArray( obj ) {
  */
 (function () {
   'use strict';
-  angular.module('wu.masonry', []).controller('MasonryCtrl', [
+  angular.module('wu.masonry', ['jtt_imagesLoaded']).controller('MasonryCtrl', [
     '$scope',
     '$element',
     '$timeout',

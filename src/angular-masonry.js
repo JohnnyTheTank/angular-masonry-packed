@@ -5,7 +5,7 @@
  */
 (function () {
   'use strict';
-  angular.module('wu.masonry', []).controller('MasonryCtrl', [
+  angular.module('wu.masonry', ['jtt_imagesLoaded']).controller('MasonryCtrl', [
     '$scope',
     '$element',
     '$timeout',
