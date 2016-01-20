@@ -27,3 +27,14 @@ packed version of [passy/angular-masonry](https://github.com/passy/angular-mason
     ```
         
 4. read docs on this the original repo: [passy/angular-masonry](https://github.com/passy/angular-masonry)
+
+5. Use this custom events ([angular-images-loaded-custom](https://github.com/JohnnyTheTank/angular-images-loaded-custom)) for refreshing layout:
+```javascript
+$scope.$on('imagesLoaded.SUCCESS', function() {
+    $scope.$broadcast("masonry.reload");
+});
+
+$scope.$on('imagesLoaded.ALWAYS', function() {
+    $scope.$broadcast("masonry.reload");
+});
+```
