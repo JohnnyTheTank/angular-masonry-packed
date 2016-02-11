@@ -1,5 +1,8 @@
 packed version of [passy/angular-masonry](https://github.com/passy/angular-masonry) including the most dependencies + [angular-images-loaded-custom](https://github.com/JohnnyTheTank/angular-images-loaded-custom)
 
+[![npm version](https://badge.fury.io/js/angular-masonry-packed.png)](https://badge.fury.io/js/angular-masonry-packed)
+[![Bower version](https://badge.fury.io/bo/angular-masonry-packed.png)](https://badge.fury.io/bo/angular-masonry-packed)
+
 ## Usage
 1. Install via either [bower](http://bower.io/), [npm](https://www.npmjs.com/) or downloaded files:
     1. `bower install --save angular-masonry-packed`
